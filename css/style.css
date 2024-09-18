@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 3rem;
+}
+
+#navbar {
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+#navbar .box {
+    background: #2d2d8b;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#navbar .logo {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.45rem;
+    font-weight: bold;
+    padding-left: 0.2rem;
+}
+
+div > h1 {
+    font-size: 1.65rem;
+    color: #333;
+    margin-top: 1.5rem;
+}
+
+div > p {
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+input[type='email'],
+input[type='password'] {
+    width: 70%;
+    padding: 0.65rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type='submit'] {
+    background: #333;
+    color: #fff;
+    padding: 0.55rem 1rem;
+    border: none;
+    border-radius: 5px;
+
+}
